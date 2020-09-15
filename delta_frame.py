@@ -2,8 +2,8 @@ from astropy.coordinates import SkyCoord, FK5
 import astropy.units as au
 import numpy as np
 
-file = "ngc6946_data_struct_2020_08_14.npy"
-struc = np.load("/Users/cosimaeibensteiner/Desktop/home/PhD/Project/NGC6946/3-PdBI-data/database/"+str(file), allow_pickle = True).item()
+file = "dictonary.npy"
+struc = np.load("path"+str(file), allow_pickle = True).item()
 
 ra = struc["ra_deg"]
 dec = struc["dec_deg"]
