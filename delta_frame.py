@@ -2,6 +2,12 @@ from astropy.coordinates import SkyCoord, FK5
 import astropy.units as au
 import numpy as np
 
+'''
+Purpose: 
+calculating detla_ra & delta_dec
+for e.g. intensity maps
+'''
+
 file = "dictonary.npy"
 struc = np.load("path"+str(file), allow_pickle = True).item()
 
