@@ -1,1 +1,1 @@
-# code-and-stuff-
+# code snippets
